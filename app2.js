@@ -14,6 +14,13 @@ const server =
       res.write('Content \n')
       res.write('More content \n')
       res.write('Hello World')    
+      res.write('<table> ')
+      res.write('<tr> <th>Location</th> <th>Hours recommended to Stay</th> <th>Cost of entry</th> </tr>')
+      res.write('<tr> <td>WWI Museum</td> <td>2-3 hours</td> <td>$18.00</td> </tr>')
+      res.write('<tr> <td>Level 1 Game Shop</td> <td>1-2 hours</td> <td>Free Admittance (but buy something)</td> </tr>')
+      res.write('<tr> <td>St. Louis Arch</td> <td>1-2 hours</td> <td>$12.00-$16.00</td> </tr>')
+      res.write('<tr> <td>Glacier National Park</td> <td>5 hours</td> <td>$20.00</td> </tr>')
+      res.write('</table>')
       res.end('</body></html>')
       //Close the response
     }                           
