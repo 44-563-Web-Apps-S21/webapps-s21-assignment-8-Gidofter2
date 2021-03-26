@@ -26,7 +26,7 @@ const server =
           res.setHeader('Content-Type', 'text/plain') 
           res.write("You rang?")
           res.end();
-          Math.random();
+          
         
       } else {
         console.log("Status 404")
